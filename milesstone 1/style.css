@@ -1,0 +1,83 @@
+/*  basic styling */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: rgb(179, 205, 197);
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container{
+    display:flex;
+    background-color:white;
+    width: 60%;
+    margin: 0 auto;
+    border-radius:10px;
+    box-shadow: 0 0 20px rgb(155, 155, 232)
+}
+
+.left-section{
+    background-color: rgb(72, 57, 183);
+    color: aliceblue;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid skyblue;
+}
+
+.profile-picture{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 5px solid rgb(2, 24, 11);
+    margin-bottom:20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin:10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color:blueviolet
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: blueviolet;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgb(155, 155, 232);
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+ul{
+    list-style-type: square;
+    padding:10px;
+    margin: 10px 0;
+
+}
+
+ul li{
+    margin: 5px 0;
+}
+
+.right-section{
+    padding: 25px;
+    width: 50%;
+}
+
+button{
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(121, 121, 234);
+    cursor:pointer;
+    margin-top: 10 px;
+    font-size:18px;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
